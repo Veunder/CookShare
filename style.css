@@ -1,0 +1,356 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    padding: 10px;
+    text-wrap: nowrap;
+}
+header img{
+    display: inline;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: auto;
+    height: 40px;
+    position: relative;
+    top: 13px;
+}
+header input{
+    width: 30%;
+    height: 30px;
+    display: inline;
+    margin-left: 25%;
+    border-radius: 50px;
+    background-color: #D9D9D9;
+    border-color: #D9D9D9;
+    border-top: #D9D9D9;
+    border-left: #D9D9D9;
+    padding-left: 10px;
+}
+header h3{
+    font-family: I;
+    font-family: "Indie Flower";
+    color: black;
+    display: inline;
+}
+header a{
+    color: black;
+    text-decoration: none;
+    display: inline;
+    padding-left: 13%;
+}
+header a:hover{
+    color: #D9D9D9;
+}
+header .heading{
+    font-family: "Indie Flower";
+    color: black;
+    text-decoration: none;
+    display: inline;
+    padding: 10px;
+    padding-left: 2px;
+    font-size: 20px;
+}
+.backgradient{
+    background: linear-gradient(#FDDD0A, white);
+    width: auto;
+    height: 100px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+#popular_text{
+    font-size: x-large;
+    position: relative;
+    left: 43%;
+    margin-bottom: 50px;
+}
+.navigation{
+    width: 30%;
+    height: auto;
+    position: relative;
+    bottom: -50px;
+}
+.navigation a{
+    width: fit-content;
+    display: list-item;
+    padding-top: 30px;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+.navigation a:hover{
+    color: #D9D9D9;
+}
+.video{
+    display: inline;
+}
+.box{
+    width: 28%;
+    height: 638px;
+    border-radius: 8px;
+    position: relative;
+    left: 40%;
+    top: -150px;
+}
+
+.box img{
+    width: 100%;
+    height: max-content;
+    border-radius: 8px;
+}
+
+.notvideo{
+    position: relative;
+    left: 70%;
+    top: -780px;
+}
+.notvideo h1{
+    font-size: xx-large;
+}
+.profile p{
+    display: inline;
+    position: relative;
+    top: -24px;
+}
+.profile img{
+    display: inline;
+    border-radius: 5px;
+    width: 48px;
+    height: 48px;
+    padding-bottom: 10px;
+}
+.actions img{
+    display: block;
+    padding-bottom: 10px;
+}
+.views img{
+    display: inline;
+    padding-bottom: 15px;
+}
+.views p{
+    font-size: small;
+    display: inline;
+    padding-bottom: 15px;
+    position: relative;
+    top: -20px;
+}
+
+.polya_reg a{
+    text-decoration: none;
+    color: #4e4e4e;
+    position: relative;
+    left: 51%;
+    top: -570px;
+    font-size: small;
+}
+.polya_reg a:hover{
+    color: #D9D9D9;
+}
+.polya_reg h1{
+    font-size: xx-large;
+    position: relative;
+    left: 44%;
+    top: -630px;
+}
+.polya_reg input{
+    display: block;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    width: 365px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    border-color: #D9D9D9;
+    border-top: #D9D9D9;
+    border-left: #D9D9D9;
+    position: relative;
+    left: 38%;
+    top: -600px;
+}
+.polya_reg button{
+    background-color: #F8D700;
+    border-color: #F8D700;
+    border-bottom: #F8D700;
+    border-right: #F8D700;
+    border-radius: 20px;
+    width: 182px;
+    height: 50px;
+    font-size: medium;
+    position: relative;
+    left: 45%;
+    top: -560px;
+    margin-bottom: 50px;
+}
+.polya_reg p{
+    color: #4e4e4e;
+    font-size: small;
+    position: relative;
+    left: 48%;
+    top: -560px;
+}
+#bbox{
+    background: linear-gradient(#FDDD0A, #fff);
+    width: 470px;
+    height: 673px;
+    border-radius: 46px;    
+    position: relative;
+    left: 34%;
+    top: 20px;
+}
+.polya_login a{
+    text-decoration: none;
+    color: #4e4e4e;
+    position: relative;
+    left: 47.5%;
+    top: -480px;
+    font-size: small;
+}
+.polya_login a:hover{
+    color: #D9D9D9;
+}
+.polya_login #forgotpass{
+    left: 34%;
+    top: -520px;
+}
+.polya_login h1{
+    font-size: xx-large;
+    position: relative;
+    left: 49%;
+    top: -630px;
+}
+.polya_login input{
+    display: block;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    width: 365px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    border-color: #D9D9D9;
+    border-top: #D9D9D9;
+    border-left: #D9D9D9;
+    position: relative;
+    left: 38%;
+    top: -600px;
+}
+.polya_login button{
+    background-color: #F8D700;
+    border-color: #F8D700;
+    border-bottom: #F8D700;
+    border-right: #F8D700;
+    border-radius: 20px;
+    width: 182px;
+    height: 50px;
+    font-size: medium;
+    position: relative;
+    left: 45%;
+    top: -560px;
+    margin-bottom: 50px;
+}
+.polya_login p{
+    color: #4e4e4e;
+    font-size: small;
+    position: relative;
+    left: 48%;
+    top: -480px;
+}
+#inputsearchpg{
+    font-size: medium;
+    width: 50%;
+    height: 50px;
+    display: inline;
+    border-radius: 50px;
+    background-color: #D9D9D9;
+    border-color: #D9D9D9;
+    border-top: #D9D9D9;
+    border-left: #D9D9D9;
+    padding-left: 10px;
+    position: relative;
+    left: 27%;
+    top: 50px;
+}
+#searchpg{
+    position: relative;
+    left: 60%;
+}
+#asearchpg:hover{
+    color: #D9D9D9;
+}
+#asearchpg{
+    color: black;
+    text-decoration: none;
+    position: relative;
+    top: 300px;
+    left: -6%;
+}
+.myprofile{
+    position: relative;
+    left: 35%;
+    top: -150px;
+    margin-bottom: 150px;
+}
+.myprofile #nickname{
+    display: inline;
+    position: relative;
+    top: -25px;
+    left: 1%;
+}
+.set{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 40%;
+    top: -150px;
+}
+.myprofile #avatar{
+    display: inline;
+    border-radius: 5px;
+    width: 48px;
+    height: 48px;
+    padding-bottom: 10px;
+}
+.notvideo #inmyporf{
+    position: relative;
+    top: 50px;
+}
+#h3inmyporf{
+    font-size: x-large;
+    position: relative;
+    left: 20%;
+    top: -120px;
+    font-weight: normal;
+}
+#h5inmyporf{
+    font-size: large;
+    position: relative;
+    left: 75%;
+    top: -180px;
+    font-weight: normal;
+}
+.myvideo{
+    display: inline;
+    position: relative;
+    left: -20%;
+}
+.myvideo2{
+    display: inline;
+    position: relative;
+    left: 20%;
+    top: -900px;
+}
+.myvideo3{
+    display: inline;
+    position: relative;
+    left: -20%;
+    top: -1100px;
+}
+.myvideo4{
+    display: inline;
+    position: relative;
+    left: 20%;
+    top: -2000px;
+}
